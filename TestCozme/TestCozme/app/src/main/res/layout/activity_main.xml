@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tansel.tezcozme.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="Hoşgeldin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/textView" />
+
+
+    <Button
+        android:id="@+id/btn_kelime_ekle"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_marginStart="-29dp"
+        android:layout_marginLeft="-29dp"
+        android:layout_marginTop="29dp"
+        android:text="Kelime Ekle" />
+
+    <Button
+        android:id="@+id/btn_teste_basla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_kelime_ekle"
+        android:layout_alignStart="@+id/btn_kelime_ekle"
+        android:layout_alignLeft="@+id/btn_kelime_ekle"
+        android:layout_marginStart="-74dp"
+        android:layout_marginLeft="-74dp"
+        android:layout_marginTop="113dp"
+        android:text="Eng-Tur Test" />
+
+    <Button
+        android:id="@+id/btn_kelimeler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_teste_basla"
+
+        android:layout_marginTop="-139dp"
+
+        android:text="Türkçe Kelimeler" />
+
+    <Button
+        android:id="@+id/btn_tur_eng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/btn_eng_kelimeler"
+        android:layout_alignTop="@+id/btn_teste_basla"
+        android:text="Tur-Eng Test" />
+
+    <Button
+        android:id="@+id/btn_eng_kelimeler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/btn_kelimeler"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="İngilizce Kelimeler" />
+
+</RelativeLayout>

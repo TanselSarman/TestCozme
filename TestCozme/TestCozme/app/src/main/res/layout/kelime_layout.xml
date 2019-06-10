@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/turkceAdi"
+        android:layout_width="163dp"
+        android:layout_height="48dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_alignTop="@+id/ingilizceAdi"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/ingilizceAdi"
+        android:layout_width="165dp"
+        android:layout_height="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:textSize="24dp" />
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        android:id="@+id/txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="338dp"
+        android:layout_marginRight="338dp" />
+
+    <Button
+        android:id="@+id/btn_Sil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="135dp"
+        android:text="Sil" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/btn_Sil"
+        android:layout_centerVertical="true"
+        android:text="Türkçe:"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24dp" />
+
+    <EditText
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24dp"
+        android:id="@+id/yeniTurkce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="119dp"
+        android:layout_marginRight="119dp"
+        android:width="150dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_Sil"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="168dp"
+        android:text="İngilizce:"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24dp" />
+
+    <EditText
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24dp"
+        android:id="@+id/yeniİngilizce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="158dp"
+        android:width="150dp" />
+
+    <Button
+        android:id="@+id/btn_guncelle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_Sil"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="85dp"
+        android:text="Güncelle" />
+
+
+
+</RelativeLayout>
